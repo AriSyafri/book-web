@@ -145,3 +145,56 @@ main aside .social-media li a:hover {
     margin: 0px;
     padding: 0px;
 }
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00B4D8;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content {
+        order: 1;
+    }
+
+    aside {
+        order: 2;
+        width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    header.navbar-container {
+        flex-direction: column;
+    }
+
+    header.navbar-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+    }
+
+    main {
+        padding: 1rem 3rem;
+    }
+
+    main .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    main .content .title {
+        font-size: 3rem;
+    }
+
+    main aside {
+        align-self: stretch;
+    }
+}
