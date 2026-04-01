@@ -9,7 +9,7 @@
 html {
     scroll-padding-top: 80px; 
     scroll-behavior: smooth;
-  }
+}
 
 
 body {
@@ -155,6 +155,7 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+
     main {
         display: flex;
         flex-direction: column;
@@ -191,6 +192,7 @@ footer {
     }
 
     main .content .title {
+        padding-top: 8rem;
         font-size: 3rem;
     }
 
